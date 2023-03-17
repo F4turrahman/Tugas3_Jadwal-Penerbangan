@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "Bandaraku",
+    "slug": "Bandaraku",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#08BBDC"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#08BBDC"
+      },
+      "package": "com.vscap.Bandaraku"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
